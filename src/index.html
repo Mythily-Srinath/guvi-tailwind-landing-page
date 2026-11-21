@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educora - Online Learning Platform</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800">
+  <!-- Navigation -->
+  <nav class="px-8 py-4 flex justify-between items-center bg-white sticky top-0 z-50 shadow-sm">
+    <div class="flex items-center gap-2">
+       <span class="w-26">
+        <img src="assests/hero/Askmeidentity 3 (1).png" alt="logo">
+    </span>
+    </div>
+    <div class="hidden md:flex gap-8">
+      <a href="#home" class="text-gray-700 text-sm font-medium hover:text-purple-600 transition duration-300">Home</a>
+      <a href="#courses" class="text-gray-700 text-sm font-medium hover:text-purple-600 transition duration-300">Courses</a>
+      <a href="#categories" class="text-gray-700 text-sm font-medium hover:text-purple-600 transition duration-300">Categories</a>
+      <a href="#contact" class="text-gray-700 text-sm font-medium hover:text-purple-600 transition duration-300">Contact</a>
+    </div>
+    <div class="flex items-center gap-4">
+      <button class="p-2 hover:bg-gray-100 rounded-lg transition duration-300">
+        <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+      </button>
+      <button class="p-2 hover:bg-gray-100 rounded-lg transition duration-300 relative">
+        <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+        </svg>
+        <span class="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
+      </button>
+      <button class="text-gray-700 text-sm font-medium hover:text-purple-600 transition duration-300">Login</button>
+      <button class="bg-purple-600 text-white px-6 py-2 rounded-lg text-sm font-semibold hover:bg-purple-700 transition duration-300 shadow-md hover:shadow-lg">Sign Up</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 py-20 md:py-32 relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+    <div class="container mx-auto px-8 relative">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- Left Content -->
+        <div class="space-y-6 z-10">
+          <p class="text-purple-200 text-sm font-semibold uppercase tracking-wider">SUCCESSFUL COACHES ARE VISIONARIES</p>
+          <h1 class="font-righteous text-5xl md:text-6xl font-bold text-white leading-tight">
+            Good coaching is good teaching $ nothing else.
+          </h1>
+          <p class="text-lg text-purple-100 leading-relaxed max-w-md">
+            High-quality online courses taught by experts. Learn at your own pace, from anywhere in the world.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 pt-6">
+            <button class="px-10 py-3 bg-white text-purple-600 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
+              View Courses
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+            </button>
+            <button class="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:bg-opacity-10 transition duration-300">
+              Get Free Consultation
+            </button>
+          </div>
+          <div class="flex w-full max-w-3xl items-center rounded-full bg-white p-2">
+            <input
+                type="text"
+                placeholder="What do you want to learn today?"
+                class="min-w-0 flex-1 rounded-full px-4 py-3 outline-none"
+            />
+        
+            <button
+                class="shrink-0 rounded-xl bg-purple-700 px-8 py-4 font-semibold text-white"
+            >
+                Search
+            </button>
+        </div>
+        </div>
+        <!-- Right Image -->
+        <div class="relative z-10 flex items-center justify-center">
+          <div class="w-full max-w-sm h-120 bg-gradient-to-br rounded-2xl flex items-center justify-center shadow-2xl">
+             <img src="assests/hero/brunette-woman-hugging-laptop_1-removebg-preview.png" class="w-full h-auto mx-auto">
+                  
+                
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partner Logos -->
+  <section class="bg-gradient-to-r from-purple-600 to-pink-500 py-12">
+    <div class="container mx-auto px-8">
+      <div class="flex items-center justify-center flex-wrap gap-12">
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <span class="text-white font-semibold text-sm">Spotify</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><rect width="24" height="24"/></svg>
+          </div>
+          <span class="text-white font-semibold text-sm">Amazon</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <span class="text-white font-semibold text-sm">Spotify</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><rect width="24" height="24"/></svg>
+          </div>
+          <span class="text-white font-semibold text-sm">Cisco</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <span class="text-white font-semibold text-sm">Bigtech</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><rect width="24" height="24"/></svg>
+          </div>
+          <span class="text-white font-semibold text-sm">Amazon</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="courses" class="py-20 md:py-32 bg-white">
+    <div class="container mx-auto px-8">
+      <div class="text-center mb-16">
+        <span class="text-gray-500 text-sm font-semibold uppercase tracking-wider">The Featured Courses are as invented our teaching part</span>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">Featured Course</h2>
+      </div>
+
+      <!-- Course Cards Grid -->
+      <div class="grid md:grid-cols-3 gap-8 mb-12">
+        <!-- Card 1 - Purple -->
+        <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-purple-400 to-purple-600 h-64 flex flex-col justify-between p-6 cursor-pointer group">
+          <div class="flex justify-between items-start gap-3">
+            <h3 class="text-white font-bold text-lg mb-2 group-hover:text-purple-100 flex-1">Motion Graphic: Create a Real Typography Animatic</h3>
+            <svg class="w-5 h-5 text-white flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>
+          </div>
+          <div>
+            <p class="text-white text-xs font-semibold mb-2">$6.399</p>
+            <span class="text-white text-sm opacity-90">By JOHN</span>
+          </div>
+        </div>
+
+        <!-- Card 2 - Purple -->
+        <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-purple-500 to-purple-700 h-64 flex flex-col justify-between p-6 cursor-pointer group">
+          <div class="flex justify-between items-start gap-3">
+            <h3 class="text-white font-bold text-lg mb-2 group-hover:text-purple-100 flex-1">Advance PDF Knowledge with UI UX Designing</h3>
+            <svg class="w-5 h-5 text-white flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>
+          </div>
+          <div>
+            <p class="text-white text-xs font-semibold mb-2">$8.299</p>
+            <span class="text-white text-sm opacity-90">By JANE</span>
+          </div>
+        </div>
+
+        <!-- Card 3 - Light Blue -->
+        <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-blue-300 to-blue-400 h-64 flex flex-col justify-between p-6 cursor-pointer group">
+          <div class="flex justify-between items-start gap-3">
+            <h3 class="text-white font-bold text-lg mb-2 group-hover:text-blue-100 flex-1">Education Software and PHP and UI</h3>
+            <svg class="w-5 h-5 text-white flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>
+          </div>
+          <div>
+            <p class="text-white text-xs font-semibold mb-2">$6.259</p>
+            <span class="text-white text-sm opacity-90">By MIKE</span>
+          </div>
+        </div>
+
+        <!-- Card 4 - Pink -->
+        <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-pink-300 to-pink-400 h-64 flex flex-col justify-between p-6 cursor-pointer group">
+          <div class="flex justify-between items-start gap-3">
+            <h3 class="text-white font-bold text-lg mb-2 group-hover:text-pink-100 flex-1">The Complete Financial Analyst Training & Investing</h3>
+            <svg class="w-5 h-5 text-white flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>
+          </div>
+          <div>
+            <p class="text-white text-xs font-semibold mb-2">$8.299</p>
+            <span class="text-white text-sm opacity-90">By SARAH</span>
+          </div>
+        </div>
+
+        <!-- Card 5 - Orange -->
+        <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-orange-400 to-orange-500 h-64 flex flex-col justify-between p-6 cursor-pointer group">
+          <div class="flex justify-between items-start gap-3">
+            <h3 class="text-white font-bold text-lg mb-2 group-hover:text-orange-100 flex-1">Marketing 2023 Complete Guide To Intelligent Growth</h3>
+            <svg class="w-5 h-5 text-white flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>
+          </div>
+          <div>
+            <p class="text-white text-xs font-semibold mb-2">$7.299</p>
+            <span class="text-white text-sm opacity-90">By DAVID</span>
+          </div>
+        </div>
+
+        <!-- Card 6 - Purple/Pink -->
+        <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-purple-500 to-pink-400 h-64 flex flex-col justify-between p-6 cursor-pointer group">
+          <div class="flex justify-between items-start gap-3">
+            <h3 class="text-white font-bold text-lg mb-2 group-hover:text-purple-100 flex-1">Learn UI Marketing and Design for Beginners</h3>
+            <svg class="w-5 h-5 text-white flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>
+          </div>
+          <div>
+            <p class="text-white text-xs font-semibold mb-2">$5.499</p>
+            <span class="text-white text-sm opacity-90">By EMMA</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Explore Courses Button -->
+      <div class="flex justify-center">
+        <button class="bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition">
+          Explore Course
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="py-20 md:py-32 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+    <div class="container mx-auto px-8">
+      <h2 class="text-center text-4xl md:text-5xl font-bold mb-16">Why learn with our courses?</h2>
+      <p class="text-center text-purple-100 mb-16 max-w-2xl mx-auto">Best leading online course platform and help you to have a better, more secured future.</p>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Benefit 1 -->
+        <div class="flex flex-col items-center text-center">
+          <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Lifetime Access</h3>
+          <p class="text-purple-100">Learn on your own schedule with lifetime access to course materials.</p>
+        </div>
+
+        <!-- Benefit 2 -->
+        <div class="flex flex-col items-center text-center">
+          <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">10 Levels to Learn</h3>
+          <p class="text-purple-100">Progress through carefully designed learning levels from beginner to expert.</p>
+        </div>
+
+        <!-- Benefit 3 -->
+        <div class="flex flex-col items-center text-center">
+          <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Get Certificate</h3>
+          <p class="text-purple-100">Earn recognized certificates upon completing each course to boost your career.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section id="categories" class="py-20 md:py-32 bg-gray-50">
+    <div class="container mx-auto px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Top Categories</h2>
+        <p class="text-gray-600 text-lg">Best selected courses round by category</p>
+      </div>
+
+      <div class="grid md:grid-cols-6 gap-6">
+        <!-- Category 1 - Red -->
+        <div class="bg-gradient-to-br from-red-500 to-red-600 rounded-xl p-8 flex flex-col items-center justify-center text-white text-center cursor-pointer hover:shadow-lg hover:scale-105 transition duration-300 h-32">
+          <svg class="w-10 h-10 mb-3" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"></path>
+          </svg>
+          <h3 class="font-bold text-sm">Digital Marketing</h3>
+          <p class="text-xs text-red-100 mt-1">25 Courses</p>
+        </div>
+
+        <!-- Category 2 - Green -->
+        <div class="bg-gradient-to-br from-green-500 to-green-600 rounded-xl p-8 flex flex-col items-center justify-center text-white text-center cursor-pointer hover:shadow-lg hover:scale-105 transition duration-300 h-32">
+          <svg class="w-10 h-10 mb-3" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"></path>
+          </svg>
+          <h3 class="font-bold text-sm">Web Development</h3>
+          <p class="text-xs text-green-100 mt-1">32 Courses</p>
+        </div>
+
+        <!-- Category 3 - Purple -->
+        <div class="bg-gradient-to-br from-purple-600 to-purple-700 rounded-xl p-8 flex flex-col items-center justify-center text-white text-center cursor-pointer hover:shadow-lg hover:scale-105 transition duration-300 h-32">
+          <svg class="w-10 h-10 mb-3" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"></path>
+          </svg>
+          <h3 class="font-bold text-sm">Art & Humanities</h3>
+          <p class="text-xs text-purple-100 mt-1">18 Courses</p>
+        </div>
+
+        <!-- Category 4 - Orange -->
+        <div class="bg-gradient-to-br from-orange-400 to-orange-500 rounded-xl p-8 flex flex-col items-center justify-center text-white text-center cursor-pointer hover:shadow-lg hover:scale-105 transition duration-300 h-32">
+          <svg class="w-10 h-10 mb-3" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"></path>
+          </svg>
+          <h3 class="font-bold text-sm">Financial Dev</h3>
+          <p class="text-xs text-orange-100 mt-1">28 Courses</p>
+        </div>
+
+        <!-- Category 5 - Teal -->
+        <div class="bg-gradient-to-br from-teal-500 to-teal-600 rounded-xl p-8 flex flex-col items-center justify-center text-white text-center cursor-pointer hover:shadow-lg hover:scale-105 transition duration-300 h-32">
+          <svg class="w-10 h-10 mb-3" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"></path>
+          </svg>
+          <h3 class="font-bold text-sm">IT & Software</h3>
+          <p class="text-xs text-teal-100 mt-1">45 Courses</p>
+        </div>
+
+        <!-- Category 6 - Green (Lime) -->
+        <div class="bg-gradient-to-br from-green-400 to-green-500 rounded-xl p-8 flex flex-col items-center justify-center text-white text-center cursor-pointer hover:shadow-lg hover:scale-105 transition duration-300 h-32">
+          <svg class="w-10 h-10 mb-3" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"></path>
+          </svg>
+          <h3 class="font-bold text-sm">Graphic Design</h3>
+          <p class="text-xs text-green-100 mt-1">22 Courses</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe Section -->
+  <section class="py-16 md:py-24">
+    <div class="container mx-auto px-8">
+      <div class="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-3xl p-12 md:p-16 relative overflow-hidden shadow-2xl">
+        <div class="absolute -top-10 -right-10 w-40 h-40 bg-white bg-opacity-10 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-white bg-opacity-10 rounded-full blur-3xl"></div>
+        
+        <div class="relative z-10 grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">Subscribe For Get Update Every New Courses</h2>
+            <p class="text-white text-opacity-90 mb-6 text-lg">Get free access to limited resources. No credit card required.</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-white transition duration-300">
+              <button class="bg-purple-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-900 transition duration-300 whitespace-nowrap shadow-lg hover:shadow-xl">Subscribe</button>
+            </div>
+          </div>
+          <div class="flex justify-center items-center gap-6">
+            <div class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition duration-300 cursor-pointer">
+              <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/></svg>
+            </div>
+            <div class="w-20 h-20 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition duration-300 cursor-pointer">
+              <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/></svg>
+            </div>
+            <div class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition duration-300 cursor-pointer">
+              <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="py-20 md:py-32 bg-gray-50">
+    <div class="container mx-auto px-8">
+      <div class="max-w-4xl mx-auto">
+        <div class="relative bg-gray-900 rounded-2xl overflow-hidden shadow-2xl" style="aspect-ratio: 16/9">
+          <div class="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
+            <div class="text-center">
+              <div class="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 cursor-pointer hover:bg-purple-700 transition">
+                <svg class="w-10 h-10 text-white fill-current" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"></path>
+                </svg>
+              </div>
+              <p class="text-white text-lg font-semibold">Woman Learning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-20 md:py-32 bg-white">
+    <div class="container mx-auto px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Testimonials</h2>
+        <p class="text-gray-600 text-lg">What our students say about us</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Testimonial 1 -->
+        <div class="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition duration-300 hover:border-purple-300">
+          <div class="flex items-center gap-4 mb-6">
+            <div class="w-14 h-14 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full flex items-center justify-center flex-shrink-0">
+              <span class="text-white font-bold text-lg">S</span>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900">Sarah Johnson</h3>
+              <p class="text-sm text-gray-600">Web Developer</p>
+            </div>
+          </div>
+          <p class="text-gray-600 mb-6 leading-relaxed">"The courses are well-structured and the instructors are incredibly knowledgeable. I learned so much in just a few weeks!"</p>
+          <div class="flex gap-1">
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition duration-300 hover:border-blue-300">
+          <div class="flex items-center gap-4 mb-6">
+            <div class="w-14 h-14 bg-gradient-to-br from-blue-400 to-teal-400 rounded-full flex items-center justify-center flex-shrink-0">
+              <span class="text-white font-bold text-lg">M</span>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900">Mike Chen</h3>
+              <p class="text-sm text-gray-600">Product Manager</p>
+            </div>
+          </div>
+          <p class="text-gray-600 mb-6 leading-relaxed">"Excellent platform! The interactive lessons and practical assignments helped me advance my career significantly."</p>
+          <div class="flex gap-1">
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition duration-300 hover:border-orange-300">
+          <div class="flex items-center gap-4 mb-6">
+            <div class="w-14 h-14 bg-gradient-to-br from-orange-400 to-red-400 rounded-full flex items-center justify-center flex-shrink-0">
+              <span class="text-white font-bold text-lg">E</span>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900">Emily Davis</h3>
+              <p class="text-sm text-gray-600">UI/UX Designer</p>
+            </div>
+          </div>
+          <p class="text-gray-600 mb-6 leading-relaxed">"This was exactly what I needed to transition into a new career. Highly recommended for anyone serious about learning!"</p>
+          <div class="flex gap-1">
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+            <span class="text-yellow-400">★</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gradient-to-r from-purple-700 to-blue-800 text-white py-20">
+    <div class="container mx-auto px-8">
+      <div class="grid md:grid-cols-5 gap-12 mb-12">
+        <!-- Column 1 -->
+        <div>
+          <h4 class="font-bold text-lg mb-6 flex items-center gap-2">
+            <span class="w-26">
+        <img src="assests/hero/Askmeidentity 3 (1).png" alt="logo">
+    </span>
+          </h4>
+          <p class="text-blue-100 text-sm leading-relaxed">The best platform for learning and teaching online with world-class instructors. Empower your future with quality education.</p>
+        </div>
+
+        <!-- Column 2 -->
+        <div>
+          <h4 class="font-bold text-lg mb-6">Courses</h4>
+          <ul class="space-y-3 text-blue-100 text-sm">
+            <li><a href="#" class="hover:text-white transition duration-300">Graphic Design</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Web Design</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Business</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Marketing</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Music</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div>
+          <h4 class="font-bold text-lg mb-6">Community</h4>
+          <ul class="space-y-3 text-blue-100 text-sm">
+            <li><a href="#" class="hover:text-white transition duration-300">Forums</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Community Events</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Members</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Blog</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div>
+          <h4 class="font-bold text-lg mb-6">Quick Links</h4>
+          <ul class="space-y-3 text-blue-100 text-sm">
+            <li><a href="#" class="hover:text-white transition duration-300">About Us</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Contact Us</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Sitemap</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 5 -->
+        <div>
+          <h4 class="font-bold text-lg mb-6">More</h4>
+          <ul class="space-y-3 text-blue-100 text-sm">
+            <li><a href="#" class="hover:text-white transition duration-300">Help Center</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Become a Teacher</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Certificates</a></li>
+            <li><a href="#" class="hover:text-white transition duration-300">Partnerships</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Footer -->
+      <div class="border-t border-blue-700 pt-8 mt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+          <p class="text-blue-200 text-sm">&copy; 2026 Educora. All rights reserved.</p>
+          <div class="flex gap-4">
+            <a href="#" class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition duration-300 transform hover:scale-110 shadow-lg">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition duration-300 transform hover:scale-110 shadow-lg">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 002.856-3.51 9.96 9.96 0 01-2.836.856 4.958 4.958 0 002.165-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417a9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+            </a>
+            <a href="#" class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition duration-300 transform hover:scale-110 shadow-lg">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm.148 23.862c-.11 0-.22 0-.33 0-3.298 0-6.328-1.364-8.44-3.525-.211-.184-.234-.52-.051-.75.183-.23.517-.258.75-.068 1.999 1.743 4.614 2.78 7.467 2.78.107 0 .213 0 .32 0 .23.012.44.16.523.37.083.21-.004.451-.218.576-1.43.876-3.103 1.377-4.91 1.377-2.167 0-4.21-.646-5.95-1.864-.23-.157-.292-.476-.136-.707.156-.23.476-.29.707-.135 1.627 1.14 3.509 1.74 5.543 1.74 1.652 0 3.234-.4 4.628-1.16.248-.136.567-.047.701.203.134.25.046.563-.2.697-1.543.876-3.33 1.373-5.129 1.373z"/></svg>
+            </a>
+            <a href="#" class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition duration-300 transform hover:scale-110 shadow-lg">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.175h-15.23c-1.344 0-2.444 1.098-2.444 2.446v15.37c0 1.345 1.1 2.444 2.444 2.444h15.23c1.344 0 2.444-1.098 2.444-2.445v-15.37c0-1.346-1.1-2.445-2.444-2.445zm-8.36 15.333h-2.416v-7.625h2.416v7.625zm-1.208-8.68a1.401 1.401 0 110-2.803 1.401 1.401 0 010 2.803zm10.444 8.68h-2.416v-3.71c0-.885-.016-2.028-1.236-2.028-1.237 0-1.428.967-1.428 1.966v3.773h-2.417v-7.626h2.318v1.04h.034c.324-.61.944-1.252 1.943-1.252 2.077 0 2.46 1.365 2.46 3.14v4.698z"/></svg>
+            </a>
+            <a href="#" class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition duration-300 transform hover:scale-110 shadow-lg">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 002.856-3.51 9.96 9.96 0 01-2.836.856 4.958 4.958 0 002.165-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417a9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
